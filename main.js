@@ -57,6 +57,7 @@ async function getPoke(url){
     pokeHeight.innerHTML = `Height: ${data.height}`;
     pokeWeight.innerHTML = `Weight: ${data.weight}`;
     
+    //
     // const pictures = await getCardDetails(data.name);
     const pictureLeft = document.querySelector('#pp1');
     const pictureMiddle = document.querySelector('#pp2');
