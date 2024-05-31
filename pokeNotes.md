@@ -1,0 +1,3 @@
+height
+name
+weight
