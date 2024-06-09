@@ -2,9 +2,11 @@
   "name": "poke",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Oppiq/poke/issues"
   },
-  "homepage": "https://github.com/Oppiq/poke#readme"
+  "homepage": "https://github.com/Oppiq/poke#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }

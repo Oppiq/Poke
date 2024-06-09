@@ -24,8 +24,8 @@ async function pageBuilder(LIST_OF_POKEMON){
     const images = document.querySelectorAll(".card-img-top");
     images[i].src = data.sprites.front_default;
 
-    const name = document.querySelectorAll(".card-title");
-    name[i].innerHTML = data.name;
+    //const name = document.querySelectorAll(".card-title");
+    //name[i].innerHTML = data.name;
 
     const buttonLink = document.querySelectorAll(".btn");
     buttonLink[i].innerHTML = data.name;
